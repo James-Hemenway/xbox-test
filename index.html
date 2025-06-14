@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | engine-core</title>
+    <title>Unity WebGL Player | memegame</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">engine-core</div>
+        <div id="unity-build-title">memegame</div>
       </div>
     </div>
     <script>
@@ -56,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/0.1a.loader.js";
+      var loaderUrl = buildUrl + "/2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/0.1a.data",
-        frameworkUrl: buildUrl + "/0.1a.framework.js",
-        codeUrl: buildUrl + "/0.1a.wasm",
+        dataUrl: buildUrl + "/2.data.gz",
+        frameworkUrl: buildUrl + "/2.framework.js.gz",
+        codeUrl: buildUrl + "/2.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "engine-core",
-        productVersion: "0.1.0",
+        productName: "memegame",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
